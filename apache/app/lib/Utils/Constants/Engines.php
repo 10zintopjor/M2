@@ -26,6 +26,9 @@ class Constants_Engines {
     const GOOGLE_TRANSLATE = 'GoogleTranslate';
     const MTHUB            = 'MTHUB';
     const INTENTO          = 'Intento';
+    const MONLAM           = 'MONLAM';
+
+
 
     protected static $ENGINES_LIST = [
             self::MY_MEMORY        => self::MY_MEMORY,
@@ -42,6 +45,7 @@ class Constants_Engines {
             self::MTHUB            => self::MTHUB,
             self::INTENTO          => self::INTENTO,
             self::MMT              => self::MMT,
+            self::MONLAM           => self::MONLAM,
     ];
 
     /**
